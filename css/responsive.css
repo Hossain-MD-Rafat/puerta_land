@@ -1,0 +1,167 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	.site-navbar {
+	    background-color: #ddd;
+	    width: 70%;
+    	padding: 40px 0;
+	}
+	.site-navbar nav .menu li a {
+	    color: #000;
+	    font-size: 12px;
+	    padding: 6px 0;
+	    position: relative;
+	    top: 0;
+	}
+
+	.site-header .site-logo img {
+	    width: 132px;
+	    margin-left: 0;
+	    margin-top: -30px;
+	}
+	.single-video-section .full-single-video fieldset {
+	    padding: 50px 20px;
+	    border: 2px solid #fff;
+	}
+	.single-video-section .full-single-video fieldset legend {
+	    width: 50%;
+	}
+	.single-video-section .full-single-video {
+	    margin-top: -90px;
+	}
+	.v-h2{
+		border: none;
+		padding: 55px 10px 55px 30px;
+	}
+	.v-h2::after {
+	    border-left: none;
+	}
+	.v-section .inner-span span {
+	    display: block;
+	    margin-top: 5px;
+	    text-align: center;
+	}
+	.image-section {
+	    padding: 75px 0;
+	}
+	.image-section h2 {
+	    font-size: 26px;
+	}
+	.icons-section .icons-img img {
+	    width: 120px;
+	    margin: 0px auto 20px;
+	}
+	.icons-section .full-icons {
+	    padding: 100px 0 380px;
+	}
+	.video-section h2 {
+	    margin-top: -210px;
+	    font-size: 28px;
+	}
+	.home-slider .slider-item img {
+	    height: auto;
+    	width: 200%;
+	}
+	.slider-item .ovrley::before {
+	    height: 59vh;
+	}
+	.owl-carousel.home-slider .owl-dots {
+	    bottom: 180px;
+	}
+	.owl-carousel.home-slider .slider-item {
+	    height: calc(100vh - 117px);
+	    min-height: 560px;
+	}
+	.section {
+	    padding: 0px 0 0;
+	    margin-top: -80px;
+	}
+	.apartment-section .full-plot-info .resumen-txt {
+	    margin-top: 0;
+	    margin-bottom: 10px;
+	}
+	.full-estoy {
+	    padding: 22px 22px 76px;
+	    margin-top: 10px;
+	}
+	.estoy-cont-btn .estoy-btn {
+	    width: 80%;
+	    margin-right: 30px !important;
+    	margin-top: 215px !important;
+    	font-size: 15px;
+	}
+	.contact-section .full-contact .form-group {
+	    margin-bottom: 0;
+	    padding: 0 40px;
+	}
+	.fot-padd{
+		padding: 70px 0 0;
+	}
+	.footer-section h3 {
+    	font-size: 18px;
+	    margin-bottom: 15px;
+	    padding-top: 0;
+	    text-align: center;
+	    text-transform: uppercase;
+	}
+	.footer-section a {
+	    display: block;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+	.footer-section p {
+	    text-align: center;
+	}
+	.footer-section .divider {
+	    display: none;
+	}
+	.footer-section .social{
+		display: inline;
+	    float: right;
+	    top: -56px;
+	    margin: 0;
+	}
+
+	.apartment-section .full-plot-info .status-info .status-ul .back select {
+	    margin-left: 33px;
+	    width: 190px;
+	    padding: 8px 20px;
+	}
+	.apartment-section .full-plot-info .info-title img {
+	    padding: 42px 0 40px;
+	}
+	.form-control {
+	    height: 44px;
+	    margin-bottom: 12px;
+	}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.estoy-cont-btn .estoy-btn{
+		margin-right: 150px !important;
+    	margin-top: 200px !important;
+	}
+	.footer-section .divider {
+	    width: 90%;
+	}
+	.owl-carousel.home-slider .owl-dots {
+	    bottom: 400px;
+	}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
